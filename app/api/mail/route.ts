@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
           .info-row { display: flex; border-bottom: 1px solid #e2e8f0; padding: 20px 0; }
           .info-row:last-child { border-bottom: none; }
           .info-row:nth-child(even) { background-color: #f8fafc; }
-          .info-label { font-weight: 600; color: #374151; min-width: 120px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+          .info-label { font-weight: 600; color: #374151; min-width: 120px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 20px; }
           .info-value { color: #1f2937; font-size: 16px; flex: 1; word-break: break-word; }
           .info-value a { color: #f89601; text-decoration: none; font-weight: 500; }
           .info-value a:hover { text-decoration: underline; }
