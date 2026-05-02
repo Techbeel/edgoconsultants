@@ -7,9 +7,38 @@ import SectionReveal from "../components/SectionReveal";
 import Services from "../components/Services";
 
 export const metadata: Metadata = {
-  title: "About Us | Edgo Consultants",
+  title: "About Edgo Consultants | Our Mission & Expert Team",
   description:
-    "Learn about Edgo Consultants — our mission, vision, and commitment to helping students achieve their study abroad dreams.",
+    "Learn about Edgo Consultants — Pakistan's leading study abroad consultancy. Our mission to help 500+ students achieve their international education dreams. Meet our expert team.",
+  keywords: [
+    "about edgo consultants",
+    "study abroad consultancy pakistan",
+    "education consultants islamabad",
+    "expert education advisors",
+    "study abroad mission",
+    "education consultancy team",
+    "pakistan study abroad experts",
+  ],
+  openGraph: {
+    title: "About Edgo Consultants | Our Mission & Expert Team",
+    description:
+      "Pakistan's leading study abroad consultancy. 500+ students guided. Expert team helping students achieve international education dreams.",
+    type: "website",
+    images: [
+      {
+        url: "/Assets/Images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "About Edgo Consultants",
+      },
+    ],
+  },
+  twitter: {
+    title: "About Edgo Consultants | Our Mission & Expert Team",
+    description:
+      "Pakistan's leading study abroad consultancy. 500+ students guided. Expert team helping students achieve international education dreams.",
+    images: ["/Assets/Images/logo.png"],
+  },
 };
 
 const values = [

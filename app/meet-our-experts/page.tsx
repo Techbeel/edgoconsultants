@@ -7,9 +7,38 @@ import CallBack from "../components/CallBack";
 import SectionReveal from "../components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Meet Our Experts | Edgo Consultants",
+  title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
   description:
-    "Meet our expert team of education consultants who help students study abroad in USA, UK, Australia, Canada, Europe and more.",
+    "Meet our expert team of education consultants in Islamabad, Pakistan. Specialized in USA, UK, Australia, Canada & Europe admissions. 95% visa success rate.",
+  keywords: [
+    "study abroad experts",
+    "education consultants team",
+    "visa experts pakistan",
+    "university admission specialists",
+    "study abroad advisors islamabad",
+    "expert counselors",
+    "education consultancy team",
+  ],
+  openGraph: {
+    title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
+    description:
+      "Expert team of education consultants in Islamabad. Specialized in USA, UK, Australia, Canada & Europe. 95% visa success rate.",
+    type: "website",
+    images: [
+      {
+        url: "/Assets/Images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Meet Our Study Abroad Experts",
+      },
+    ],
+  },
+  twitter: {
+    title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
+    description:
+      "Expert team of education consultants in Islamabad. Specialized in USA, UK, Australia, Canada & Europe.",
+    images: ["/Assets/Images/logo.png"],
+  },
 };
 
 const experts = [

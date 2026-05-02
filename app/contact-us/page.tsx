@@ -11,9 +11,38 @@ import CallBack from "../components/CallBack";
 import SectionReveal from "../components/SectionReveal";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Edgo Consultants",
+  title: "Contact Edgo Consultants | Free Study Abroad Consultation",
   description:
-    "Get in touch with Edgo Consultants. We are here to help you start your study abroad journey.",
+    "Get in touch with Edgo Consultants for free study abroad consultation. Located in Islamabad, Pakistan. WhatsApp, Email, Facebook, YouTube & Instagram support.",
+  keywords: [
+    "contact edgo consultants",
+    "study abroad consultation",
+    "free consultation islamabad",
+    "education consultancy contact",
+    "study abroad whatsapp",
+    "visa consultation pakistan",
+    "university admission contact",
+  ],
+  openGraph: {
+    title: "Contact Edgo Consultants | Free Study Abroad Consultation",
+    description:
+      "Free study abroad consultation in Islamabad, Pakistan. Connect via WhatsApp, Email, or Social Media for expert guidance.",
+    type: "website",
+    images: [
+      {
+        url: "/Assets/Images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Contact Edgo Consultants",
+      },
+    ],
+  },
+  twitter: {
+    title: "Contact Edgo Consultants | Free Study Abroad Consultation",
+    description:
+      "Free study abroad consultation in Islamabad, Pakistan. Connect via WhatsApp, Email, or Social Media.",
+    images: ["/Assets/Images/logo.png"],
+  },
 };
 
 const contactItems = [
