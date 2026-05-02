@@ -93,6 +93,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.edgoconsultants.com",
   },
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 // Structured Data for SEO
