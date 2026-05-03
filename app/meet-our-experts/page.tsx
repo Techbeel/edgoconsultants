@@ -113,6 +113,55 @@ export default function MeetOurExperts() {
         </div>
       </section>
 
+      {/* CEO Section */}
+      <section className="py-16" style={{ background: "#0d1f2d" }}>
+        <div className="max-w-7xl mx-auto px-5 lg:px-8">
+          <SectionReveal>
+            <div className="glass rounded-3xl p-8 md:p-12">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div>
+                  <div className="flex items-center gap-3 mb-6">
+                    <span className="px-3 py-1 bg-[#f89601] text-white text-sm font-bold rounded-full">
+                      CEO & Founder
+                    </span>
+                  </div>
+                  <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
+                    Khalid Munawar
+                  </h2>
+                  <h3 className="text-xl text-[#f89601] font-semibold mb-6">
+                    Message From CEO
+                  </h3>
+                  <p className="text-white/70 text-lg leading-relaxed mb-6">
+                    As the CEO of Edgo Consultants, I bring over a decade of
+                    experience in navigating the complex world of international
+                    admissions and visa applications. My journey has been
+                    dedicated to guiding students towards achieving their
+                    academic dreams by securing admissions in top universities
+                    abroad.
+                  </p>
+                  <p className="text-white/70 text-lg leading-relaxed">
+                    With a deep understanding of the process and a passion for
+                    excellence, I strive to ensure every student's success
+                    through personalized and professional support.
+                  </p>
+                </div>
+                <div className="flex justify-center lg:justify-end">
+                  <div className="relative">
+                    <Image
+                      src="/Assets/Images/Team/Khalid.jpg"
+                      alt="Khalid Munawar - CEO & Founder"
+                      width={300}
+                      height={300}
+                      className="rounded-2xl object-cover shadow-2xl"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SectionReveal>
+        </div>
+      </section>
+
       {/* Experts */}
       <section className="py-20" style={{ background: "#0d1f2d" }}>
         <div className="max-w-7xl mx-auto px-5 lg:px-8 space-y-6">
