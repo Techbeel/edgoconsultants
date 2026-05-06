@@ -81,6 +81,7 @@ export default function Navbar() {
               className="object-contain w-auto"
               style={{ maxHeight: "42px" }}
               priority
+              unoptimized
             />
           </Link>
 

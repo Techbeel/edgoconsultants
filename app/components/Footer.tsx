@@ -70,6 +70,7 @@ export default function Footer() {
                 height={36}
                 className="object-contain w-auto"
                 style={{ maxHeight: "38px" }}
+                unoptimized
               />
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-6">

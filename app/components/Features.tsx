@@ -52,6 +52,7 @@ export default function Features() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
+                  unoptimized
                 />
                 {/* Dark gradient overlay */}
                 <div className="absolute inset-0 bg-linear-to-t from-[#0d1f2d]/80 via-transparent to-transparent" />

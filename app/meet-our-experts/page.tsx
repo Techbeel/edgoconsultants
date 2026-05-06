@@ -148,6 +148,7 @@ export default function MeetOurExperts() {
                       width={300}
                       height={300}
                       className="rounded-2xl object-cover shadow-2xl"
+                      unoptimized
                     />
                   </div>
                 </div>
@@ -185,6 +186,7 @@ export default function MeetOurExperts() {
                       alt={expert.name}
                       fill
                       className="object-cover transition-all duration-500 group-hover:scale-105"
+                      unoptimized
                     />
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
