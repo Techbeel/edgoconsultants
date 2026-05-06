@@ -20,12 +20,17 @@ const links = {
     { title: "Contact Us", href: "/contact-us" },
   ],
   destinations: [
-    { title: "United States", href: "/#callback" },
-    { title: "United Kingdom", href: "/#callback" },
-    { title: "Australia", href: "/#callback" },
-    { title: "Canada", href: "/#callback" },
-    { title: "New Zealand", href: "/#callback" },
-    { title: "Ireland", href: "/#callback" },
+    { title: "🇫🇷", href: "/#callback" },
+    { title: "🇬🇧", href: "/#callback" },
+    { title: "🇸🇪", href: "/#callback" },
+    { title: "🇫🇮", href: "/#callback" },
+    { title: "🇱🇹", href: "/#callback" },
+    { title: "🇷🇴", href: "/#callback" },
+    { title: "🇸🇮", href: "/#callback" },
+    { title: "🇱🇻", href: "/#callback" },
+    { title: "🇪🇪", href: "/#callback" },
+    { title: "🇨🇾", href: "/#callback" },
+    { title: "🇭🇺", href: "/#callback" },
   ],
 };
 
@@ -112,7 +117,7 @@ export default function Footer() {
             <h4 className="text-white/80 font-bold text-xs uppercase tracking-[0.15em] mb-5">
               Destinations
             </h4>
-            <ul className="space-y-3">
+            <ul className="flex flex-wrap gap-3">
               {links.destinations.map((l) => (
                 <li key={l.title}>
                   <Link
@@ -133,13 +138,13 @@ export default function Footer() {
             </h4>
             <div className="space-y-4">
               <a
-                href="tel:+923001234567"
+                href="tel:+923139320255"
                 className="flex items-start gap-3 text-white/40 hover:text-white text-sm transition-colors group"
               >
                 <span className="mt-0.5 text-[#f89601] shrink-0">
                   <FontAwesomeIcon icon={faPhoneSolid} className="w-4 h-4" />
                 </span>
-                +92 300 1234567
+                +92 313 9320255
               </a>
               <a
                 href="mailto:info@edgoconsultants.com"

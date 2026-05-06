@@ -11,20 +11,23 @@ import { useEffect, useState } from "react";
 
 const stats = [
   { value: "500+", label: "Students Placed", icon: "🎓" },
-  { value: "8+", label: "Countries", icon: "🌍" },
+  { value: "11+", label: "Countries", icon: "🌍" },
   { value: "95%", label: "Success Rate", icon: "✨" },
-  { value: "Free", label: "Consultation", icon: "💬" },
+  { value: "Free", label: "Assessment", icon: "💬" },
 ];
 
 const destinations = [
-  "USA",
-  "UK",
-  "Australia",
-  "Canada",
-  "New Zealand",
-  "Ireland",
-  "Europe",
-  "China",
+  "France",
+  "United Kingdom",
+  "Sweden",
+  "Finland",
+  "Lithuania",
+  "Romania",
+  "Slovenia",
+  "Latvia",
+  "Estonia",
+  "Cyprus",
+  "Hungary",
 ];
 const words = ["Ambitions", "Dreams", "Future", "Potential"];
 
@@ -101,8 +104,9 @@ export default function Hero() {
               <p
                 className={`mt-6 text-lg text-white/55 leading-relaxed max-w-md transition-all duration-700 delay-200 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
               >
-                Expert guidance from accomplished alumni and current students
-                worldwide. We turn academic dreams into reality — completely{" "}
+                Guidance from a highly experienced professional team dedicated
+                to helping you achieve your academic goals worldwide. We turn
+                your study abroad dreams into reality - assessment{" "}
                 <span className="text-[#f89601] font-semibold">free</span>.
               </p>
 
@@ -116,7 +120,7 @@ export default function Hero() {
                 >
                   <span className="flex items-center gap-2">
                     <FontAwesomeIcon icon={faPhone} className="w-5 h-5" />
-                    Get Free Consultation
+                    Get Free Assessment
                   </span>
                 </Link>
                 <Link

@@ -15,30 +15,44 @@ import SectionReveal from "./SectionReveal";
 const steps = [
   {
     number: "01",
-    title: "Share Your Requirements",
+    title: "Share Your Details & Background",
     description:
-      "Tell us about your academic background, preferred destinations, budget, and career goals. No judgment — we start from where you are.",
+      "Tell us about your academic history, preferences, and goals so we can understand your profile.",
     icon: <FontAwesomeIcon icon={faComments} className="w-7 h-7" />,
   },
   {
     number: "02",
-    title: "Document Preparation",
+    title: "Profile Assessment",
     description:
-      "We guide you through every document — transcripts, SOP, LOR, financial proof, language tests. Nothing gets missed.",
+      "We carefully evaluate your profile to check eligibility and identify the best opportunities for you.",
     icon: <FontAwesomeIcon icon={faFileAlt} className="w-7 h-7" />,
   },
   {
     number: "03",
-    title: "Application & Follow-up",
+    title: "Country & Course Recommendation",
     description:
-      "We submit applications to shortlisted universities, track progress, negotiate scholarships, and follow up on your behalf.",
+      "Based on your profile, we suggest the most suitable countries and study programs.",
     icon: <FontAwesomeIcon icon={faPaperPlane} className="w-7 h-7" />,
   },
   {
     number: "04",
-    title: "Visa & Pre-Departure",
+    title: "University Shortlisting",
     description:
-      "From visa application to packing lists — we prep you for everything. Our 95% visa success rate is your safety net.",
+      "We shortlist the best-fit universities (public & private) according to your academic and budget criteria.",
+    icon: <FontAwesomeIcon icon={faGlobe} className="w-7 h-7" />,
+  },
+  {
+    number: "05",
+    title: "Application Submission & Follow-up",
+    description:
+      "We prepare and submit your applications and continuously follow up with universities for updates.",
+    icon: <FontAwesomeIcon icon={faPaperPlane} className="w-7 h-7" />,
+  },
+  {
+    number: "06",
+    title: "Visa Filing & Processing",
+    description:
+      "We guide you through complete visa documentation, filing, and embassy process until final decision.",
     icon: <FontAwesomeIcon icon={faGlobe} className="w-7 h-7" />,
   },
 ];
@@ -64,8 +78,8 @@ export default function HowWeWork() {
               <span className="gradient-text">To Your Dream School</span>
             </h2>
             <p className="text-white/40 max-w-lg mx-auto text-base">
-              A simple, proven 4-step process that has placed 500+ students in
-              top universities worldwide.
+              A comprehensive, proven 6-step process that has placed 500+
+              students in top universities worldwide.
             </p>
           </div>
         </SectionReveal>

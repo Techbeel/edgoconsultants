@@ -1,15 +1,12 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import CallBack from "../components/CallBack";
 import SectionReveal from "../components/SectionReveal";
 
 export const metadata: Metadata = {
   title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
   description:
-    "Meet our expert team of education consultants in Islamabad, Pakistan. Specialized in USA, UK, Australia, Canada & Europe admissions. 95% visa success rate.",
+    "Meet our expert team of education consultants in Islamabad, Pakistan. Specialized in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary admissions. 95% visa success rate.",
   keywords: [
     "study abroad experts",
     "education consultants team",
@@ -22,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
     description:
-      "Expert team of education consultants in Islamabad. Specialized in USA, UK, Australia, Canada & Europe. 95% visa success rate.",
+      "Expert team of education consultants in Islamabad. Specialized in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary. 95% visa success rate.",
     type: "website",
     images: [
       {
@@ -36,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
     description:
-      "Expert team of education consultants in Islamabad. Specialized in USA, UK, Australia, Canada & Europe.",
+      "Expert team of education consultants in Islamabad. Specialized in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
     images: ["/Assets/Images/logo.png"],
   },
 };
@@ -44,48 +41,46 @@ export const metadata: Metadata = {
 const experts = [
   {
     id: 1,
-    name: "Muhammad Abu Bakr",
-    img: "/Assets/Images/Team/Bakr.jpeg",
-    flag: "/Assets/Images/Flags/2.svg",
-    country: "UK",
-    flagEmoji: "🇬🇧",
-    desc: "Muhammad Abu Bakar is the Manager Operations for EDGO in London. An LLM graduate from Dundee University with a background in civil, criminal, and family law, he combines his legal expertise with a passion for guiding students.",
+    name: "Shakeel Ahmad",
+    img: "/Assets/Images/Team/Shakeel.png",
+    position:
+      "Head of Admissions & International Operations / Business Development Manager",
+    flagEmoji: "👔",
   },
   {
     id: 2,
-    name: "Muhammad Ibrar",
-    img: "/Assets/Images/Team/Ibrar.jpeg",
-    flag: "/Assets/Images/Flags/7.svg",
-    country: "Europe",
-    flagEmoji: "🇪🇺",
-    desc: "Muhammad Ibrar, our Manager Operations for Europe, is an expert in navigating the diverse education systems across European countries. His insights have empowered countless students to embark on successful academic journeys in Europe.",
+    name: "Salman Yousaf",
+    img: "/Assets/Images/Team/Salman.png",
+    position: "Admissions & Visa Processing Officer / Branch Manager",
+    flagEmoji: "📋",
   },
   {
     id: 3,
-    name: "Abdur Rehman Tarar",
-    img: "/Assets/Images/Team/Tarar.jpeg",
-    flag: "/Assets/Images/Flags/3.svg",
-    country: "Australia",
-    flagEmoji: "🇦🇺",
-    desc: "As Manager Operations for Australia, Abdur Rehman Tarar connects students with top-ranked Australian institutions. With deep understanding of the Australian education system, post-study work opportunities, and visa procedures.",
+    name: "Aayan Sarwar",
+    img: "/Assets/Images/Team/Ayaan.png",
+    position: "Admissions & Visa Processing Officer",
+    flagEmoji: "🎓",
   },
   {
     id: 4,
-    name: "Humais Khan",
-    img: "/Assets/Images/Team/Humais.jpeg",
-    flag: "/Assets/Images/Flags/1.svg",
-    country: "USA",
-    flagEmoji: "🇺🇸",
-    desc: "Humais Khan is our Manager Operations for the USA. His dedication and tailored advice have helped students secure places in some of the most prestigious institutions in the United States.",
+    name: "Vicky",
+    img: "/Assets/Images/Team/Vicky.png",
+    position: "Student Support & Communications Officer",
+    flagEmoji: "💬",
   },
   {
     id: 5,
-    name: "Talha Awan",
-    img: "/Assets/Images/Team/Talha.jpeg",
-    flag: "/Assets/Images/Flags/4.svg",
-    country: "New Zealand",
-    flagEmoji: "🇳🇿",
-    desc: "Talha Awan, our Manager Operations for New Zealand, specializes in helping students explore opportunities at top universities with in-depth knowledge of New Zealand's educational landscape and visa regulations.",
+    name: "Atiq Ur Rehman",
+    img: "/Assets/Images/Team/Atiq.png",
+    position: "Digital Media & Content Specialist",
+    flagEmoji: "📱",
+  },
+  {
+    id: 6,
+    name: "Hammad Khan",
+    img: "/Assets/Images/Team/Hammad.png",
+    position: "Social Media Manager",
+    flagEmoji: "📢",
   },
 ];
 
@@ -164,62 +159,51 @@ export default function MeetOurExperts() {
 
       {/* Experts */}
       <section className="py-20" style={{ background: "#0d1f2d" }}>
-        <div className="max-w-7xl mx-auto px-5 lg:px-8 space-y-6">
-          {experts.map((expert, i) => (
-            <SectionReveal key={expert.id} delay={i * 80}>
-              <div
-                className={`group glass rounded-3xl overflow-hidden flex flex-col ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} card-lift`}
-              >
-                {/* Image */}
-                <div className="md:w-64 shrink-0">
-                  <div className="relative h-64 md:h-full min-h-[260px]">
+        <div className="max-w-7xl mx-auto px-5 lg:px-8">
+          <SectionReveal>
+            <div className="text-center mb-16">
+              <span className="text-[#f89601] text-sm font-bold uppercase tracking-[0.2em] mb-4 block">
+                Our Team
+              </span>
+              <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
+                Meet the <span className="gradient-text">Professionals</span>
+              </h2>
+              <p className="text-white/40 max-w-lg mx-auto text-base">
+                Dedicated experts committed to your success in international
+                education.
+              </p>
+            </div>
+          </SectionReveal>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {experts.map((expert, i) => (
+              <SectionReveal key={expert.id} delay={i * 100}>
+                <div className="group relative glass rounded-2xl overflow-hidden card-lift">
+                  <div className="aspect-[3/4] relative">
                     <Image
                       src={expert.img}
                       alt={expert.name}
                       fill
-                      className="object-cover"
+                      className="object-cover transition-all duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-linear-to-r from-[#0d1f2d]/30 to-transparent md:hidden" />
-                    <div className="absolute top-4 left-4 glass rounded-xl px-3 py-1.5 flex items-center gap-2">
-                      <span className="text-lg">{expert.flagEmoji}</span>
-                      <span className="text-white font-bold text-sm">
-                        {expert.country}
-                      </span>
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-2xl">{expert.flagEmoji}</span>
+                      </div>
+                      <h3 className="text-white font-black text-xl mb-1">
+                        {expert.name}
+                      </h3>
+                      <p className="text-white/80 text-sm leading-relaxed">
+                        {expert.position}
+                      </p>
                     </div>
                   </div>
                 </div>
-
-                {/* Content */}
-                <div className="flex-1 p-8 flex flex-col justify-center">
-                  <div className="flex items-center gap-3 mb-3">
-                    <Image
-                      src={expert.flag}
-                      alt={expert.country}
-                      width={28}
-                      height={20}
-                      className="rounded-sm"
-                    />
-                    <span className="text-[#f89601] text-xs font-bold uppercase tracking-widest">
-                      Manager Operations — {expert.country}
-                    </span>
-                  </div>
-                  <h2 className="text-2xl md:text-3xl font-black text-white mb-4 group-hover:text-[#f89601] transition-colors">
-                    {expert.name}
-                  </h2>
-                  <p className="text-white/50 leading-relaxed text-sm md:text-base mb-6">
-                    {expert.desc}
-                  </p>
-                  <Link
-                    href="/#callback"
-                    className="inline-flex items-center gap-2 text-[#f89601] text-sm font-semibold hover:gap-3 transition-all"
-                  >
-                    Book a session
-                    <FontAwesomeIcon icon={faArrowRight} className="w-4 h-4" />
-                  </Link>
-                </div>
-              </div>
-            </SectionReveal>
-          ))}
+              </SectionReveal>
+            ))}
+          </div>
         </div>
       </section>
 

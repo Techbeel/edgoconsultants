@@ -35,24 +35,30 @@ export default function Navbar() {
               key={i}
               className="text-white text-xs font-semibold mx-6 tracking-wide inline-flex items-center gap-4"
             >
-              <span>🇺🇸 USA</span>
+              <span>🇫🇷 France</span>
               <span className="opacity-50">·</span>
-              <span>🇬🇧 UK</span>
+              <span>🇬🇧 United Kingdom</span>
               <span className="opacity-50">·</span>
-              <span>🇦🇺 Australia</span>
+              <span>🇸🇪 Sweden</span>
               <span className="opacity-50">·</span>
-              <span>🇨🇦 Canada</span>
+              <span>🇫🇮 Finland</span>
               <span className="opacity-50">·</span>
-              <span>🇳🇿 New Zealand</span>
+              <span>🇱🇹 Lithuania</span>
               <span className="opacity-50">·</span>
-              <span>🇮🇪 Ireland</span>
+              <span>🇷🇴 Romania</span>
               <span className="opacity-50">·</span>
-              <span>🇪🇺 Europe</span>
+              <span>🇸🇮 Slovenia</span>
               <span className="opacity-50">·</span>
-              <span>🇨🇳 China</span>
+              <span>🇱🇻 Latvia</span>
+              <span className="opacity-50">·</span>
+              <span>🇪🇪 Estonia</span>
+              <span className="opacity-50">·</span>
+              <span>🇨🇾 Cyprus</span>
+              <span className="opacity-50">·</span>
+              <span>🇭🇺 Hungary</span>
               <span className="opacity-50">·</span>
               <span className="font-bold">
-                Free Expert Consultation — Book Today
+                Free Expert Assessment - Book Today
               </span>
               <span className="mx-4 opacity-30">|</span>
             </span>
@@ -98,7 +104,7 @@ export default function Navbar() {
           {/* CTA — simplified, no WhatsApp text */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://wa.me/923001234567"
+              href="https://wa.me/923139320255"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
@@ -110,7 +116,7 @@ export default function Navbar() {
               href="/#callback"
               className="btn-primary text-sm px-5 py-2.5 rounded-xl"
             >
-              <span>Free Consultation</span>
+              <span>Free Assessment</span>
             </Link>
           </div>
 
@@ -152,7 +158,7 @@ export default function Navbar() {
               onClick={() => setMenuOpen(false)}
               className="block mt-3 text-center btn-primary text-sm rounded-xl py-3"
             >
-              <span>Free Consultation</span>
+              <span>Free Assessment</span>
             </Link>
           </div>
         </div>

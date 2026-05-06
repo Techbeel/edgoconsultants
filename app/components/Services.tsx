@@ -8,7 +8,7 @@ const services = [
     tag: "01",
     title: "Expert Consultation",
     description:
-      "One-on-one sessions with consultants who studied abroad themselves. No generic advice — only lived experience.",
+      "One-on-one sessions with consultants who studied abroad themselves. No generic advice, only lived experience.",
     accent: "from-[#f89601] to-[#e07800]",
     features: [
       "Profile Assessment",
@@ -21,7 +21,7 @@ const services = [
     tag: "02",
     title: "Application Support",
     description:
-      "End-to-end application assistance — SOP, LOR, essays, forms. We make your application stand out from thousands.",
+      "End-to-end application assistance. SOP, LOR, essays, forms. We make your application stand out from thousands.",
     accent: "from-[#1e5578] to-[#0d3a55]",
     features: ["SOP Writing", "Document Review", "Deadline Tracking"],
   },
@@ -30,7 +30,7 @@ const services = [
     tag: "03",
     title: "Visa & Admissions",
     description:
-      "From offer letter to visa approval. Our 95% visa success rate speaks for itself — we know what immigration officers want.",
+      "From offer letter to visa approval. Our 95% visa success rate speaks for itself, we know what immigration officers want.",
     accent: "from-[#4a1d96] to-[#2e0f5e]",
     features: ["Visa Application", "Interview Prep", "Pre-departure Brief"],
   },

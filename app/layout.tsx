@@ -17,15 +17,21 @@ export const metadata: Metadata = {
     template: "%s | Edgo Consultants",
   },
   description:
-    "Transform your study abroad dreams into reality with Edgo Consultants. Expert guidance for USA, UK, Australia, Canada, Europe & more. Free consultation, 95% visa success rate.",
+    "Transform your study abroad dreams into reality with Edgo Consultants. Expert guidance for France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary. Free consultation, 95% visa success rate.",
   keywords: [
     "study abroad",
     "education consultancy",
-    "study in USA",
+    "study in France",
     "study in UK",
-    "study in Australia",
-    "study in Canada",
-    "study in Europe",
+    "study in Sweden",
+    "study in Finland",
+    "study in Lithuania",
+    "study in Romania",
+    "study in Slovenia",
+    "study in Latvia",
+    "study in Estonia",
+    "study in Cyprus",
+    "study in Hungary",
     "visa assistance",
     "university admission",
     "scholarships",
@@ -53,7 +59,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Edgo Consultants | Expert Study Abroad Guidance",
     description:
-      "Transform your study abroad dreams into reality. Free expert consultation for USA, UK, Australia, Canada & Europe. 95% visa success rate.",
+      "Transform your study abroad dreams into reality. Free expert consultation for France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary. 95% visa success rate.",
     url: "https://www.edgoconsultants.com",
     siteName: "Edgo Consultants",
     type: "website",
@@ -73,7 +79,7 @@ export const metadata: Metadata = {
     creator: "@EdgoConsultants",
     title: "Edgo Consultants | Expert Study Abroad Guidance",
     description:
-      "Transform your study abroad dreams into reality. Free expert consultation for USA, UK, Australia, Canada & Europe.",
+      "Transform your study abroad dreams into reality. Free expert consultation for France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
     images: ["/Assets/Images/logo.png"],
   },
   robots: {
@@ -106,7 +112,7 @@ const structuredData = {
   "@type": "EducationalOrganization",
   name: "Edgo Consultants",
   description:
-    "Expert study abroad consultancy providing free guidance for international education in USA, UK, Australia, Canada, and Europe.",
+    "Expert study abroad consultancy providing free guidance for international education in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus, and Hungary.",
   url: "https://www.edgoconsultants.com",
   logo: "https://www.edgoconsultants.com/Assets/Images/logo.png",
   address: {
@@ -119,7 +125,7 @@ const structuredData = {
   },
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+92-300-1234567",
+    telephone: "+92-313-9320255",
     contactType: "customer service",
     availableLanguage: "English",
   },
@@ -132,7 +138,7 @@ const structuredData = {
   areaServed: [
     {
       "@type": "Country",
-      name: "United States",
+      name: "France",
     },
     {
       "@type": "Country",
@@ -140,15 +146,39 @@ const structuredData = {
     },
     {
       "@type": "Country",
-      name: "Australia",
+      name: "Sweden",
     },
     {
       "@type": "Country",
-      name: "Canada",
+      name: "Finland",
     },
     {
       "@type": "Country",
-      name: "Europe",
+      name: "Lithuania",
+    },
+    {
+      "@type": "Country",
+      name: "Romania",
+    },
+    {
+      "@type": "Country",
+      name: "Slovenia",
+    },
+    {
+      "@type": "Country",
+      name: "Latvia",
+    },
+    {
+      "@type": "Country",
+      name: "Estonia",
+    },
+    {
+      "@type": "Country",
+      name: "Cyprus",
+    },
+    {
+      "@type": "Country",
+      name: "Hungary",
     },
   ],
 };

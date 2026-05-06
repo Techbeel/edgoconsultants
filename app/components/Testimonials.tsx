@@ -20,8 +20,8 @@ const testimonials = [
   {
     name: "Alisha Tahir",
     role: "MBA",
-    university: "University of Melbourne, Australia",
-    flag: "🇦🇺",
+    university: "Stockholm School of Economics, Sweden",
+    flag: "🇸🇪",
     quote:
       "The team at Edgo was with me at every step. From shortlisting universities to the visa interview prep — professional and genuinely caring.",
     rating: 5,
@@ -31,8 +31,8 @@ const testimonials = [
   {
     name: "Waqas Ahmed",
     role: "BEng Mechanical Engineering",
-    university: "University of Toronto, Canada",
-    flag: "🇨🇦",
+    university: "Technical University of Munich, Germany",
+    flag: "🇩🇪",
     quote:
       "I was confused about which country to choose. Edgo not only helped me decide but also secured a partial scholarship. Amazing service!",
     rating: 5,
@@ -42,8 +42,8 @@ const testimonials = [
   {
     name: "Hussain Ali",
     role: "MS Data Science",
-    university: "University of Auckland, New Zealand",
-    flag: "🇳🇿",
+    university: "University of Helsinki, Finland",
+    flag: "🇫🇮",
     quote:
       "Highly professional team. They guided me through every step of the process and helped me secure admission to my dream university.",
     rating: 5,

@@ -56,7 +56,7 @@ const contactItems = [
     icon: <FontAwesomeIcon icon={faWhatsapp} className="w-6 h-6" />,
     label: "WhatsApp",
     value: "+92 300 1234567",
-    href: "https://wa.me/923001234567",
+    href: "https://wa.me/923139320255",
   },
   {
     icon: <FontAwesomeIcon icon={faFacebookF} className="w-6 h-6" />,

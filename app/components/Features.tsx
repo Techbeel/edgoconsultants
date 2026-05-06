@@ -5,23 +5,23 @@ import SectionReveal from "./SectionReveal";
 
 const features = [
   {
-    title: "Alumni Network",
-    desc: "Connect with our consultants who are actual students and graduates from top universities.",
-    icon: "🎓",
+    title: "Instant Communication",
+    desc: "We respond to every student query quickly and clearly anytime guidance is needed.",
+    icon: "💬",
   },
   {
     title: "Zero Hidden Fees",
-    desc: "Our consultation and guidance is completely free. No surprises, ever.",
+    desc: "Apart from our consultation fee, there are no hidden charges at any stage. Everything is clear and transparent from the start.",
     icon: "💰",
   },
   {
-    title: "Dedicated Advisor",
-    desc: "One assigned advisor sees your case through from start to visa stamp.",
+    title: "Dedicated Support",
+    desc: "We offer dedicated WhatsApp groups where specialists from different departments are available to guide you throughout your process, from start to visa stage.",
     icon: "🤝",
   },
   {
     title: "Global Reach",
-    desc: "Partnerships with hundreds of universities across 8 countries worldwide.",
+    desc: "We are familiar with the admission processes of both public and private universities across 11 countries worldwide.",
     icon: "🌐",
   },
 ];
@@ -92,7 +92,7 @@ export default function Features() {
               </h2>
               <p className="text-white/50 text-base leading-relaxed mb-10 max-w-md">
                 Navigating international admissions alone is overwhelming. Our
-                consultants have been in your shoes — we know exactly what it
+                consultants have been in your shoes. We know exactly what it
                 takes to get in.
               </p>
 

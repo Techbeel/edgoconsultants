@@ -66,7 +66,7 @@ const values = [
 
 const stats = [
   { value: "500+", label: "Students Placed" },
-  { value: "8+", label: "Countries Covered" },
+  { value: "11+", label: "Countries Covered" },
   { value: "95%", label: "Success Rate" },
   { value: "5+", label: "Years Experience" },
 ];
@@ -144,13 +144,13 @@ export default function About() {
             <p className="text-white/50 leading-relaxed mb-4">
               Our team of accomplished alumni and current international students
               understand firsthand the challenges of navigating the study abroad
-              process. We have been there — and we want to make it easier for
+              process. We have been there - and we want to make it easier for
               you.
             </p>
             <p className="text-white/50 leading-relaxed mb-8">
               From choosing the right university and program, to preparing
-              documents, acing applications, and securing scholarships — we
-              guide you every step of the way, completely free of charge.
+              documents, acing applications, and securing scholarships. We guide
+              you every step of the way, completely free of charge.
             </p>
             <Link
               href="/#callback"

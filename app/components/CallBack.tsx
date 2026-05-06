@@ -5,14 +5,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
 const countries = [
-  { value: "usa", label: "🇺🇸 United States" },
+  { value: "france", label: "🇫🇷 France" },
   { value: "uk", label: "🇬🇧 United Kingdom" },
-  { value: "australia", label: "🇦🇺 Australia" },
-  { value: "canada", label: "🇨🇦 Canada" },
-  { value: "newzealand", label: "🇳🇿 New Zealand" },
-  { value: "ireland", label: "🇮🇪 Ireland" },
-  { value: "europe", label: "🇪🇺 Europe" },
-  { value: "china", label: "🇨🇳 China" },
+  { value: "sweden", label: "🇸🇪 Sweden" },
+  { value: "finland", label: "🇫🇮 Finland" },
+  { value: "lithuania", label: "🇱🇹 Lithuania" },
+  { value: "romania", label: "🇷🇴 Romania" },
+  { value: "slovenia", label: "🇸🇮 Slovenia" },
+  { value: "latvia", label: "🇱🇻 Latvia" },
+  { value: "estonia", label: "🇪🇪 Estonia" },
+  { value: "cyprus", label: "🇨🇾 Cyprus" },
+  { value: "hungary", label: "🇭🇺 Hungary" },
 ];
 
 type Status = "idle" | "loading" | "success" | "error";
@@ -70,26 +73,47 @@ export default function CallBack() {
           {/* Left */}
           <div>
             <span className="text-[#f89601] text-sm font-bold uppercase tracking-[0.2em] mb-4 block">
-              Free Consultation
+              Free Assessment
             </span>
             <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
               Ready to Start
               <br />
-              <span className="gradient-text">Your Journey?</span>
+              <span className="gradient-text">Your Study Journey?</span>
             </h2>
             <p className="text-white/50 text-base leading-relaxed mb-10 max-w-sm">
-              Fill in a few details and our expert will personally reach out
-              within 24 hours. No pressure — just a real conversation about your
-              future.
+              Take the first step towards your future. Share your basic details
+              and our expert advisor will review your profile and contact you
+              within 24 hours to guide you further.
+            </p>
+
+            <p className="text-white/50 text-base leading-relaxed mb-10 max-w-sm">
+              No pressure, no obligations - just honest guidance for your study
+              abroad plans.
+            </p>
+
+            <p className="text-white/50 text-base leading-relaxed mb-10 max-w-sm">
+              What you get:
             </p>
 
             {/* Trust signals */}
             <div className="space-y-4">
               {[
-                { icon: "✅", text: "100% Free — No charges ever" },
-                { icon: "⚡", text: "Response within 24 hours" },
-                { icon: "🔒", text: "Your information is private & secure" },
-                { icon: "🎓", text: "Advisor matched to your destination" },
+                {
+                  icon: "✅",
+                  text: "Completely Free Guidance - No hidden charges at any stage",
+                },
+                {
+                  icon: "⚡",
+                  text: "Fast Response - Get contacted within 24 hours",
+                },
+                {
+                  icon: "🔒",
+                  text: "100% Confidential - Your data stays private and secure",
+                },
+                {
+                  icon: "🎓",
+                  text: "Dedicated Advisor - Matched according to your study destination and goals",
+                },
               ].map((item) => (
                 <div
                   key={item.text}
@@ -138,7 +162,7 @@ export default function CallBack() {
                         type="text"
                         value={form.name}
                         onChange={update("name")}
-                        placeholder="John Doe"
+                        placeholder="Ali Ahmed"
                         required
                         className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/25 text-sm focus:outline-none focus:border-[#f89601]/50 focus:bg-white/8 transition-colors"
                       />
@@ -166,7 +190,7 @@ export default function CallBack() {
                       type="email"
                       value={form.email}
                       onChange={update("email")}
-                      placeholder="john@example.com"
+                      placeholder="aliahmed@example.com"
                       required
                       className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/25 text-sm focus:outline-none focus:border-[#f89601]/50 focus:bg-white/8 transition-colors"
                     />
@@ -229,7 +253,7 @@ export default function CallBack() {
                           Sending...
                         </>
                       ) : (
-                        "Book Free Consultation →"
+                        "Book Free Assessment →"
                       )}
                     </span>
                   </button>

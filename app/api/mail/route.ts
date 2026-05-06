@@ -111,7 +111,7 @@ export async function POST(req: NextRequest) {
             </div>
             <div class="info-row">
               <div class="info-label">🌍 Destination</div>
-              <div class="info-value">${safe(country)}${country === "USA" ? " 🇺🇸" : country === "UK" ? " 🇬🇧" : country === "Australia" ? " 🇦🇺" : country === "Canada" ? " 🇨🇦" : country === "New Zealand" ? " 🇳🇿" : country === "Ireland" ? " 🇮🇪" : ""}</div>
+              <div class="info-value">${safe(country)}${country === "France" ? " 🇫🇷" : country === "United Kingdom" ? " 🇬🇧" : country === "Sweden" ? " 🇸🇪" : country === "Finland" ? " 🇫🇮" : country === "Lithuania" ? " 🇱🇹" : country === "Romania" ? " 🇷🇴" : country === "Slovenia" ? " 🇸🇮" : country === "Latvia" ? " 🇱🇻" : country === "Estonia" ? " 🇪🇪" : country === "Cyprus" ? " 🇨🇾" : country === "Hungary" ? " 🇭🇺" : ""}</div>
             </div>
           </div>
 
@@ -134,7 +134,7 @@ export async function POST(req: NextRequest) {
               <p>Expert Study Abroad Guidance • Free Consultation • 95% Visa Success Rate</p>
               <div class="footer-links">
                 <a href="https://www.edgoconsultants.com">🌐 Website</a>
-                <a href="https://wa.me/923001234567">💬 WhatsApp</a>
+                <a href="https://wa.me/923139320255">💬 WhatsApp</a>
                 <a href="mailto:info@edgoconsultants.com">✉️ Email</a>
               </div>
               <p style="margin-top: 20px; font-size: 12px; opacity: 0.7;">

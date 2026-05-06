@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials";
 export const metadata: Metadata = {
   title: "Expert Study Abroad Consultants | Free Guidance | Edgo Consultants",
   description:
-    "Your trusted study abroad partner. Free expert consultation for USA, UK, Australia, Canada & Europe. 95% visa success rate. Start your international education journey today.",
+    "Your trusted study abroad partner. Free expert consultation for France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary. 95% visa success rate. Start your international education journey today.",
   keywords: [
     "study abroad consultants",
     "free study abroad guidance",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Expert Study Abroad Consultants | Free Guidance",
     description:
-      "Free expert consultation for study abroad. 95% visa success rate. Study in USA, UK, Australia, Canada & Europe.",
+      "Free expert consultation for study abroad. 95% visa success rate. Study in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
     type: "website",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Expert Study Abroad Consultants | Free Guidance",
     description:
-      "Free expert consultation for study abroad. 95% visa success rate. Study in USA, UK, Australia, Canada & Europe.",
+      "Free expert consultation for study abroad. 95% visa success rate. Study in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
     images: ["/Assets/Images/logo.png"],
   },
 };
