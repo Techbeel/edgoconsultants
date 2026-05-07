@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Assets/Images/logo1.png",
+        url: "/assets/images/logo1.png",
         width: 1200,
         height: 630,
         alt: "Meet Our Study Abroad Experts",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
     description:
       "Expert team of education consultants in Islamabad. Specialized in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
-    images: ["/Assets/Images/logo1.png"],
+    images: ["/assets/images/logo1.png"],
   },
 };
 
@@ -42,38 +42,38 @@ const experts = [
   {
     id: 1,
     name: "Shakeel Ahmad",
-    img: "/Assets/Images/Team/Shakeel.png",
+    img: "/assets/images/team/Shakeel.png",
     position:
       "Head of Admissions & International Operations / Business Development Manager",
   },
   {
     id: 2,
     name: "Salman Yousaf",
-    img: "/Assets/Images/Team/Salman.png",
+    img: "/assets/images/team/Salman.png",
     position: "Admissions & Visa Processing Officer / Branch Manager",
   },
   {
     id: 3,
     name: "Aayan Sarwar",
-    img: "/Assets/Images/Team/Ayaan.png",
+    img: "/assets/images/team/Ayaan.png",
     position: "Admissions & Visa Processing Officer",
   },
   {
     id: 4,
     name: "Vicky",
-    img: "/Assets/Images/Team/Vicky.png",
+    img: "/assets/images/team/Vicky.png",
     position: "Student Support & Communications Officer",
   },
   {
     id: 5,
     name: "Atiq Ur Rehman",
-    img: "/Assets/Images/Team/Atiq.png",
+    img: "/assets/images/team/Atiq.png",
     position: "Digital Media & Content Specialist",
   },
   {
     id: 6,
     name: "Hammad Khan",
-    img: "/Assets/Images/Team/Hammad.png",
+    img: "/assets/images/team/Hammad.png",
     position: "Social Media Manager",
   },
 ];
@@ -137,7 +137,7 @@ export default function MeetOurExperts() {
                 <div className="flex justify-center lg:justify-end">
                   <div className="relative">
                     <Image
-                      src="/Assets/Images/Team/Khalid.jpg"
+                      src="/assets/images/team/Khalid.jpg"
                       alt="Khalid Munawar - CEO & Founder"
                       width={300}
                       height={300}

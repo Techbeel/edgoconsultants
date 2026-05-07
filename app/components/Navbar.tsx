@@ -74,7 +74,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center py-3">
             <Image
-              src="/Assets/Images/logo1.png"
+              src="/assets/images/logo1.png"
               alt="Edgo Consultants"
               width={160}
               height={52}

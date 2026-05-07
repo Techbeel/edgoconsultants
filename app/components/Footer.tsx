@@ -64,7 +64,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
               <Image
-                src="/Assets/Images/logo1.png"
+                src="/assets/images/logo1.png"
                 alt="Edgo Consultants"
                 width={140}
                 height={46}

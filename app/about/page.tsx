@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Assets/Images/logo1.png",
+        url: "/assets/images/logo1.png",
         width: 1200,
         height: 630,
         alt: "About Edgo Consultants",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "About Edgo Consultants | Our Mission & Expert Team",
     description:
       "Pakistan's leading study abroad consultancy. 500+ students guided. Expert team helping students achieve international education dreams.",
-    images: ["/Assets/Images/logo1.png"],
+    images: ["/assets/images/logo1.png"],
   },
 };
 
@@ -103,7 +103,7 @@ export default function About() {
               <div className="absolute -inset-1 rounded-3xl bg-linear-to-br from-[#f89601]/20 via-transparent to-[#1e5578]/20 blur-[2px]" />
               <div className="relative rounded-3xl overflow-hidden">
                 <Image
-                  src="/Assets/Images/about-us-bg-web.png"
+                  src="/assets/images/about-us-bg-web.png"
                   alt="Our Story"
                   width={600}
                   height={420}

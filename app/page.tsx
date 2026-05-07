@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Assets/Images/logo1.png",
+        url: "/assets/images/logo1.png",
         width: 1200,
         height: 630,
         alt: "Edgo Consultants - Study Abroad Experts",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Expert Study Abroad Consultants | Free Guidance",
     description:
       "Free expert consultation for study abroad. 95% visa success rate. Study in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
-    images: ["/Assets/Images/logo1.png"],
+    images: ["/assets/images/logo1.png"],
   },
 };
 

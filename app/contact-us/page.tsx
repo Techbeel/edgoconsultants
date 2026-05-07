@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Assets/Images/logo1.png",
+        url: "/assets/images/logo1.png",
         width: 1200,
         height: 630,
         alt: "Contact Edgo Consultants",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Contact Edgo Consultants | Free Study Abroad Consultation",
     description:
       "Free study abroad consultation in Islamabad, Pakistan. Connect via WhatsApp, Email, or Social Media.",
-    images: ["/Assets/Images/logo1.png"],
+    images: ["/assets/images/logo1.png"],
   },
 };
 

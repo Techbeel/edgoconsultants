@@ -4,7 +4,7 @@
     "framework": "nextjs",
     "headers": [
         {
-            "source": "/Assets/Images/:path*",
+            "source": "/assets/images/:path*",
             "headers": [
                 {
                     "key": "Cache-Control",

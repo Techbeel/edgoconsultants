@@ -47,7 +47,7 @@ export default function Features() {
               <div className="absolute -inset-1 rounded-3xl bg-linear-to-br from-[#f89601]/30 via-transparent to-[#1e5578]/30 blur-[2px]" />
               <div className="relative rounded-3xl overflow-hidden aspect-[4/5] max-h-[550px]">
                 <Image
-                  src="/Assets/Images/boy.jpg"
+                  src="/assets/images/boy.jpg"
                   alt="Student"
                   fill
                   className="object-cover"
