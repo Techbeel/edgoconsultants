@@ -45,42 +45,36 @@ const experts = [
     img: "/Assets/Images/Team/Shakeel.png",
     position:
       "Head of Admissions & International Operations / Business Development Manager",
-    flagEmoji: "👔",
   },
   {
     id: 2,
     name: "Salman Yousaf",
     img: "/Assets/Images/Team/Salman.png",
     position: "Admissions & Visa Processing Officer / Branch Manager",
-    flagEmoji: "📋",
   },
   {
     id: 3,
     name: "Aayan Sarwar",
     img: "/Assets/Images/Team/Ayaan.png",
     position: "Admissions & Visa Processing Officer",
-    flagEmoji: "🎓",
   },
   {
     id: 4,
     name: "Vicky",
     img: "/Assets/Images/Team/Vicky.png",
     position: "Student Support & Communications Officer",
-    flagEmoji: "💬",
   },
   {
     id: 5,
     name: "Atiq Ur Rehman",
     img: "/Assets/Images/Team/Atiq.png",
     position: "Digital Media & Content Specialist",
-    flagEmoji: "📱",
   },
   {
     id: 6,
     name: "Hammad Khan",
     img: "/Assets/Images/Team/Hammad.png",
     position: "Social Media Manager",
-    flagEmoji: "📢",
   },
 ];
 
@@ -147,7 +141,7 @@ export default function MeetOurExperts() {
                       alt="Khalid Munawar - CEO & Founder"
                       width={300}
                       height={300}
-                      className="rounded-2xl object-cover shadow-2xl"
+                      className="rounded-2xl object-cover shadow-2xl w-full h-auto"
                       unoptimized
                     />
                   </div>
@@ -187,13 +181,11 @@ export default function MeetOurExperts() {
                       fill
                       className="object-cover transition-all duration-500 group-hover:scale-105"
                       unoptimized
+                      loading="eager"
                     />
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6">
-                      <div className="flex items-center gap-3 mb-2">
-                        <span className="text-2xl">{expert.flagEmoji}</span>
-                      </div>
                       <h3 className="text-white font-black text-xl mb-1">
                         {expert.name}
                       </h3>

@@ -52,13 +52,13 @@ export default function Services() {
             <span className="text-[#f89601] text-sm font-bold uppercase tracking-[0.2em] mb-4">
               What We Offer
             </span>
-            <div className="flex items-end gap-4 flex-wrap">
+            <div className="flex items-start gap-4 flex-col">
               <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
                 Everything You Need
                 <br />
                 <span className="gradient-text">In One Place</span>
               </h2>
-              <p className="text-white/45 text-base max-w-xs mb-2">
+              <p className="text-white/45 text-base mb-2">
                 From first session to landing at your dream university.
               </p>
             </div>

@@ -78,7 +78,7 @@ export default function Navbar() {
               alt="Edgo Consultants"
               width={130}
               height={42}
-              className="object-contain w-auto"
+              className="object-contain w-auto h-auto"
               style={{ maxHeight: "42px" }}
               priority
               unoptimized

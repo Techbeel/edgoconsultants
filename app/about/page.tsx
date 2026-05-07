@@ -107,7 +107,7 @@ export default function About() {
                   alt="Our Story"
                   width={600}
                   height={420}
-                  className="w-full h-[420px] object-cover"
+                  className="w-full h-auto object-cover"
                   unoptimized
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-[#0d1f2d]/60 to-transparent" />
