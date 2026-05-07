@@ -174,9 +174,23 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="h-px bg-white/5" />
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <p className="text-white/25 text-xs">
-          © {new Date().getFullYear()} Edgo Consultants. All rights reserved.
-        </p>
+        <div className="flex flex-col sm:flex-row items-center gap-3">
+          <p className="text-white/25 text-xs">
+            © {new Date().getFullYear()} Edgo Consultants. All rights reserved.
+          </p>
+          <p className="text-white/15 text-xs hidden sm:block">•</p>
+          <p className="text-white/15 text-xs">
+            Powered by{" "}
+            <Link
+              href="https://techbeel.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#f89601] hover:text-white transition-colors"
+            >
+              Techbeel
+            </Link>
+          </p>
+        </div>
         <p className="text-white/15 text-xs">Empowering students worldwide.</p>
       </div>
     </footer>
