@@ -70,16 +70,16 @@ export default function Navbar() {
       <nav
         className={`transition-all duration-500 ${scrolled ? "glass-dark shadow-2xl" : "bg-[#0d1f2d]"}`}
       >
-        <div className="max-w-7xl mx-auto px-5 lg:px-8 flex items-center justify-between h-16">
+        <div className="max-w-7xl mx-auto px-5 lg:px-8 flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center py-2">
+          <Link href="/" className="flex items-center py-3">
             <Image
-              src="/Assets/Images/logo.png"
+              src="/Assets/Images/logo1.png"
               alt="Edgo Consultants"
-              width={130}
-              height={42}
+              width={160}
+              height={52}
               className="object-contain w-auto h-auto"
-              style={{ maxHeight: "42px" }}
+              style={{ maxHeight: "52px" }}
               priority
               unoptimized
             />

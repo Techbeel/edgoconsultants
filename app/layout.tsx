@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/Assets/Images/logo.png",
+        url: "/Assets/Images/logo1.png",
         width: 1200,
         height: 630,
         alt: "Edgo Consultants - Study Abroad Experts",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     title: "Edgo Consultants | Expert Study Abroad Guidance",
     description:
       "Transform your study abroad dreams into reality. Free expert consultation for France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
-    images: ["/Assets/Images/logo.png"],
+    images: ["/Assets/Images/logo1.png"],
   },
   robots: {
     index: true,
@@ -114,7 +114,7 @@ const structuredData = {
   description:
     "Expert study abroad consultancy providing free guidance for international education in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus, and Hungary.",
   url: "https://www.edgoconsultants.com",
-  logo: "https://www.edgoconsultants.com/Assets/Images/logo.png",
+  logo: "https://www.edgoconsultants.com/Assets/Images/logo1.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Office Number 231, 3rd Floor, M, Dubai Tower, Lehtrar Rd",

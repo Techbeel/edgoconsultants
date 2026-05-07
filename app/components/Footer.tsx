@@ -62,14 +62,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-5">
+            <Link href="/" className="inline-block mb-6">
               <Image
-                src="/Assets/Images/logo.png"
+                src="/Assets/Images/logo1.png"
                 alt="Edgo Consultants"
-                width={110}
-                height={36}
-                className="object-contain w-auto"
-                style={{ maxHeight: "38px" }}
+                width={140}
+                height={46}
+                className="object-contain w-auto h-auto"
+                style={{ maxHeight: "48px" }}
                 unoptimized
               />
             </Link>

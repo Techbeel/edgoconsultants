@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Assets/Images/logo.png",
+        url: "/Assets/Images/logo1.png",
         width: 1200,
         height: 630,
         alt: "Meet Our Study Abroad Experts",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Meet Our Study Abroad Experts | Edgo Consultants Team",
     description:
       "Expert team of education consultants in Islamabad. Specialized in France, UK, Sweden, Finland, Lithuania, Romania, Slovenia, Latvia, Estonia, Cyprus & Hungary.",
-    images: ["/Assets/Images/logo.png"],
+    images: ["/Assets/Images/logo1.png"],
   },
 };
 

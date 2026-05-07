@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Assets/Images/logo.png",
+        url: "/Assets/Images/logo1.png",
         width: 1200,
         height: 630,
         alt: "About Edgo Consultants",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "About Edgo Consultants | Our Mission & Expert Team",
     description:
       "Pakistan's leading study abroad consultancy. 500+ students guided. Expert team helping students achieve international education dreams.",
-    images: ["/Assets/Images/logo.png"],
+    images: ["/Assets/Images/logo1.png"],
   },
 };
 
