@@ -77,9 +77,9 @@ export default function Navbar() {
               src="/assets/images/logo1.png"
               alt="Edgo Consultants"
               width={160}
-              height={52}
+              height={64}
               className="object-contain w-auto h-auto"
-              style={{ maxHeight: "52px" }}
+              style={{ maxHeight: "64px" }}
               priority
               unoptimized
             />

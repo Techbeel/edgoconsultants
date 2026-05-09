@@ -66,10 +66,10 @@ export default function Footer() {
               <Image
                 src="/assets/images/logo1.png"
                 alt="Edgo Consultants"
-                width={140}
-                height={46}
+                width={180}
+                height={64}
                 className="object-contain w-auto h-auto"
-                style={{ maxHeight: "48px" }}
+                style={{ maxHeight: "80px" }}
                 unoptimized
               />
             </Link>
