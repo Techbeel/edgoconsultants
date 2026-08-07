@@ -99,11 +99,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.edgoconsultants.com",
   },
-  icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
-  },
+  // Icons come from the `app/favicon.ico` file convention — Next.js injects the
+  // <link rel="icon"> tag automatically. Do not add an `icons` field here; it
+  // would override the convention.
 };
 
 // Structured Data for SEO
