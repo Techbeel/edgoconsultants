@@ -42,38 +42,38 @@ const experts = [
   {
     id: 1,
     name: "Shakeel Ahmad",
-    img: "/assets/images/team/Shakeel.png",
+    img: "/assets/images/team/Shakeel.jpg",
     position:
       "Head of Admissions & International Operations / Business Development Manager",
   },
   {
     id: 2,
     name: "Salman Yousaf",
-    img: "/assets/images/team/Salman.png",
+    img: "/assets/images/team/Salman.jpg",
     position: "Admissions & Visa Processing Officer / Branch Manager",
   },
   {
     id: 3,
     name: "Aayan Sarwar",
-    img: "/assets/images/team/Ayaan.png",
+    img: "/assets/images/team/Ayaan.jpg",
     position: "Admissions & Visa Processing Officer",
   },
   {
     id: 4,
     name: "Vicky",
-    img: "/assets/images/team/Vicky.png",
+    img: "/assets/images/team/Vicky.jpg",
     position: "Student Support & Communications Officer",
   },
   {
     id: 5,
     name: "Atiq Ur Rehman",
-    img: "/assets/images/team/Atiq.png",
+    img: "/assets/images/team/Atiq.jpg",
     position: "Digital Media & Content Specialist",
   },
   {
     id: 6,
     name: "Hammad Khan",
-    img: "/assets/images/team/Hammad.png",
+    img: "/assets/images/team/Hammad.jpg",
     position: "Social Media Manager",
   },
 ];
